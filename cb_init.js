@@ -1,3 +1,5 @@
+console.log("script loading");
+
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot/style.css';
