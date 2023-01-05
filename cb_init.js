@@ -28,7 +28,7 @@ div.innerHTML = `<div class="container">
         </div>
     </div>
     <div class="chatbox__button">
-        <button><img src="{{ url_for('static', filename='images/chatbox-icon.png') }}" /></button>
+        <button><img src=src="https://cdn-icons-png.flaticon.com/512/8943/8943377.png" width="100px" /></button>
     </div>
 </div>
 </div>`
