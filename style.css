@@ -120,6 +120,8 @@ body {
 
 .chatbox__image--header {
     margin-right: 10px;
+    height: 450px;
+    width: 350px;
 }
 
 .chatbox__heading--header {
