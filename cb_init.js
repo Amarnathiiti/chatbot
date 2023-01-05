@@ -28,7 +28,7 @@ div.innerHTML = `<div class="container">
         </div>
     </div>
     <div class="chatbox__button">
-        <button><img src="https://cdn-icons-png.flaticon.com/512/8943/8943377.png" width="100px" /></button>
+        <button><img src="https://cdn-icons-png.flaticon.com/512/8943/8943377.png" width="100px" alt="chatbot-image"/></button>
     </div>
 </div>
 </div>`
