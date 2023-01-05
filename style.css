@@ -50,6 +50,8 @@ body {
 /* BUTTON */
 .chatbox__button {
     text-align: right;
+    width:100px;
+    float:right;
 }
 
 .send__button {
