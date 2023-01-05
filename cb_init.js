@@ -7,7 +7,7 @@ document.head.appendChild(link);
 
 
 var div = document.createElement('div');
-div.innerHTML = <div class="container">
+div.innerHTML = `<div class="container">
 <div class="chatbox">
     <div class="chatbox__support">
         <div class="chatbox__header">
@@ -31,7 +31,7 @@ div.innerHTML = <div class="container">
         <button><img src="{{ url_for('static', filename='images/chatbox-icon.png') }}" /></button>
     </div>
 </div>
-</div>
+</div>`
 
 
 document.body.appendChild(div);
@@ -40,5 +40,5 @@ document.body.appendChild(div);
 var script = document.createElement('script');
 script.src = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot/app.js';
 script.type = 'text/javascript';
-//script.async = true;
+script.async = true;
 document.body.appendChild(script);
