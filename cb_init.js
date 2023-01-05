@@ -38,7 +38,7 @@ document.body.appendChild(div);
 
 
 var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot/app.js';
+script.src = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot@latest/app.js';
 script.type = 'text/javascript';
 script.async = true;
 document.body.appendChild(script);
