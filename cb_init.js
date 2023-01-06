@@ -1,4 +1,4 @@
-console.log("script loading");
+console.log("script loading new features");
 
 var link = document.createElement('link');
 link.rel = 'stylesheet';
