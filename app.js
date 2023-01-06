@@ -73,11 +73,11 @@ class Chatbox {
         this.messages.slice().reverse().forEach(function(item, index) {
             if (item.name === "Sam")
             {
-                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div><img src="https://cdn-icons-png.flaticon.com/512/8675/8675049.png"></img>'
             }
             else
             {
-                html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
+                html += '<div class="messages__item messages__item--operator">' + item.message + '</div><img src="https://cdn-icons-png.flaticon.com/512/8675/8675049.png"></img>'
             }
           });
 
