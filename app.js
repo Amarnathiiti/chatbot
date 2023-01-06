@@ -77,7 +77,7 @@ class Chatbox {
             }
             else
             {
-                html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
+                html += '<div class="messages__item messages__item--operator">'+'<img src="https://res.cloudinary.com/dbkmv79ja/image/upload/v1672985093/chatbot_qr9f9w.png" width="10px" />' + item.message + '</div>'
             }
           });
 
