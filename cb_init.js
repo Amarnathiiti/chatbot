@@ -2,7 +2,7 @@ console.log("script loading new features");
 
 var link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot/style.css';
+link.href = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot@newfeatures/style.css';
 document.head.appendChild(link);
 
 
@@ -38,7 +38,7 @@ document.body.appendChild(div);
 
 
 var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot/app.js';
+script.src = 'https://cdn.jsdelivr.net/gh/Amarnathiiti/chatbot@newfeatures/app.js';
 script.type = 'text/javascript';
 script.async = true;
 document.body.appendChild(script);
