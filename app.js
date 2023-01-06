@@ -73,7 +73,7 @@ class Chatbox {
         this.messages.slice().reverse().forEach(function(item, index) {
             if (item.name === "Sam")
             {
-                html += '<div class="messages__item messages__item--visitor">'+'<img src="https://res.cloudinary.com/dbkmv79ja/image/upload/v1672985093/chatbot_qr9f9w.png" width="10px" />' + item.message + '</div>'
+                html += '<div class="messages__item messages__item--visitor">'+'<img src="https://res.cloudinary.com/dbkmv79ja/image/upload/v1672985093/chatbot_qr9f9w.png" width="10px" alt="random"/>' + item.message + '</div>'
             }
             else
             {
