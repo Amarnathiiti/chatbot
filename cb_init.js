@@ -27,8 +27,8 @@ div.innerHTML = `<div class="container">
             <button class="chatbox__send--footer send__button">Send</button>
         </div>
     </div>
-    <div class="chatbox__button">
-        <button><img src="https://cdn-icons-png.flaticon.com/512/8943/8943377.png" width="100px" alt="chatbot-image"/></button>
+    <div style="width:100px;float:right">
+        <button class="chatbox__button"><img src="https://res.cloudinary.com/dbkmv79ja/image/upload/v1672985093/chatbot_qr9f9w.png" width="100px" alt="chatbot-image"/></button>
     </div>
 </div>
 </div>`
