@@ -63,6 +63,8 @@ class Chatbox {
 
         }).catch((error) => {
             console.error('Error:', error);
+            let msg3 = { name: "Sam", message: "Unable to get response." };
+            this.messages.push(msg3);
             this.updateChatText(chatbox)
             textField.value = ''
           });
